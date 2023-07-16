@@ -4,6 +4,7 @@ function Header(){
 		<div className="row">
 			<div className="row1"></div>
 			<div className="row2">
+			<hr className="horizontal-line" />
 				<div ClassName="col">
 					<img src="Icon - Logo.svg" className="logo"/>
 					<img src="Movie Hub.png" className="hub"/>
@@ -13,6 +14,9 @@ function Header(){
 				</div>
 			</div>
 			<div className="row1"></div>
+			<hr className="horizontal-line" />
+			<div className="row3">Watch</div>
+		
 			
 		</div>
 	

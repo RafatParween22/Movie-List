@@ -1,15 +1,30 @@
-function Row_of_movie(){
-	return(
-		<div className="row-of-movie">
-			<div className="container">
-				<img src="image 1.png"className="image"/>
-			</div>
-			<div className="movie-Detailed">
-				<h1>Dear Zindagi</h1>
-				<h2>Description</h2>
-			</div>
-		</div>
-	
-)
+import Action_row from './Action_row.js';
+
+function Row_of_movie({movie,onDelete}) {
+  return (
+  	<div className="row-of-movie">
+      <div className="container">
+        <img src={movie.img} className="image" />
+      </div>
+      <div className="movie-detailed">
+      	<h1>{movie.name}</h1>
+       	<p>
+          {movie.year} | {movie.duration} | {movie.genre}
+          
+        </p>
+        <h2 className="text">Description</h2>
+        <p>{movie.description}</p>
+        <Action_row onDelete={onDelete} />
+         
+      </div>
+     
+      
+ 
+    </div>
+    	
+   
+    
+  );
 }
-export default Row_of_movie ;
+
+export default Row_of_movie;

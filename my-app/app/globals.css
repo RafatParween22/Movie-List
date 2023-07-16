@@ -1,21 +1,29 @@
 
 *{
 	background-color:black;
+	color:white;
 	margin:0px;
 }
 .row{
-	border:1px solid blue;
 	height:200px;
 }
 
 .row1{
-	border: 1px solid blue;
 	background-color:#0E0E15;
 	height:28px;
 }
+.horizontal-line{
+	border:1px solid red;
+}
+
 .row2{
 	height:72px;
-	border:1px solid blue;
+}
+.row3{
+	height:40px;
+	color:white;
+	margin-left:156px;
+	margin-top:23px;
 }
 .col{
 	width:72px;
@@ -34,6 +42,7 @@
 .watch{
 	float:right;
 	margin-top:30px;
+	margin-left:394px;
 }
 .add{
 	float:right;
@@ -41,18 +50,87 @@
 }
 .f_row1{
 	height:40px;
-	border:1px solid blue;
+	background: var(--bg-secondary, #272734);
 }
 .f_row2{
-	height:40px;
-	border:1px solid blue;
+	height:32px;
+	background: var(--bg-secondary, #272734);
 }
 .f_row3{
-	height:32px;
-	border:1px solid blue;
-}
-
-.f_row4{
 	height:28px;
-	border:1px solid blue;
+	background: var(--bg-secondary, #272734);
 }
+.row-of-movie{
+	margin:auto;
+	height:277px;
+	width:960px;
+	display:flex;
+	align-items: center;
+}
+.image{
+	width: 200px;
+	height: 252px;
+	margin:auto;
+}
+.container{
+	height:252px;
+	width:728px;
+	flex:0;
+	padding:23px;
+}
+.text{
+	color:white;
+}
+.movie-Detailed{
+	height:30px;
+	width:33px;
+	flex:1;
+	color:white;
+	padding:10px;
+}
+.delete{
+	float:right;
+}
+.line{
+	margin:auto;
+	width:940px;
+	border:1px dotted #5E5E75;
+}
+.navgurukul{
+	margin-left:160px;
+	background: var(--bg-secondary, #272734);
+}
+.pro{
+	margin-left:13px;
+	background: var(--bg-secondary, #272734);
+}
+.empty{
+	height:28px;
+}
+.like{
+	float:left;
+}
+.dislike{
+	float:left;
+}
+.Count{
+	width:30px;
+	border-radius:39px;
+	float:left;
+	background: var(--bg-secondary, #272734);
+	line-height:2.5;
+	margin:6px;
+}
+	
+
+
+	
+	
+	
+	
+	
+	
+	
+	
+
+
