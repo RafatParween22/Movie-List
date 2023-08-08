@@ -26,7 +26,7 @@ function Row_of_movie({movie,onDelete,handleDislike,handleLike,count}) {
      
       
  
-    <div>
+    </div>
     	
    
     
