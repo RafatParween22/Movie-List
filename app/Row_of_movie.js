@@ -1,6 +1,6 @@
 import Action_row from './Action_row.js';
 
-function Row_of_movie({movie,onDelete}) {
+function Row_of_movie({movie,onDelete,handleDislike,handleLike,count}) {
   return (
   	<div className="row-of-movie">
       <div className="container">
@@ -14,13 +14,19 @@ function Row_of_movie({movie,onDelete}) {
         </p>
         <h2 className="text">Description</h2>
         <p>{movie.description}</p>
-        <Action_row onDelete={onDelete} />
+        
+        <Action_row 
+		    onDelete={onDelete}
+		    handleLike={handleLike}
+		    handleDislike={handleDislike}
+		    count={count}
+         />
          
       </div>
      
       
  
-    </div>
+    <div>
     	
    
     
