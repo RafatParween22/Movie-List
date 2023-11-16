@@ -1,7 +1,7 @@
-const Button = ({ Add Movie, onClick }) => {
+const Button = ({ AddMovie, onClick }) => {
   return (
     <button onClick={onClick}>
-      {Add Movie}
+      {AddMovie}
     </button>
   );
 };

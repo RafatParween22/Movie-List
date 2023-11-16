@@ -3,7 +3,7 @@ import Header from './Header.js';
 import Footer from './Footer.js';
 import Row_of_movie from './Row_of_movie.js';
 import {Data} from './data.js';
-import Button from './add_movie.js';
+import Button from './Add_movie.js';
 import { useState } from "react";
 export default function My_func(){
 	const [movies, setMovies] = useState(Data);
